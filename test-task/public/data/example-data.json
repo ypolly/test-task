@@ -1,0 +1,156 @@
+{
+	"retailer": {
+		"name": "Möller Bil Göteborg"
+	},
+	"cardsData": [
+		{
+			"brand": "Audi",
+			"gearType": "Automat",
+			"image": "https://pics.vwgroup.se/prod/TBR76L/TBR76L.jpg",
+			"model": "A4 allroad quattro",
+			"regNumber": "TBR76L",
+			"vehicleImages": [
+				"https://pics.vwgroup.se/prod/TBR76L/TBR76L.jpg",
+				"https://pics.vwgroup.se/prod/TBR76L/TBR76LA.jpg"
+			],
+			"used": true,
+			"mileage": 2000,
+			"version": "40 TDI PRO",
+			"price": 450000
+		},
+		{
+			"brand": "Audi",
+			"gearType": "Automat",
+			"image": "https://pics.vwgroup.se/prod/CJU539/CJU539.jpg",
+			"model": "A3 Sportback",
+			"regNumber": "TBR76L",
+			"vehicleImages": [
+				"https://pics.vwgroup.se/prod/CJU539/CJU539.jpg",
+				"https://pics.vwgroup.se/prod/CJU539/CJU539A.jpg",
+				"https://pics.vwgroup.se/prod/CJU539/CJU539B.jpg",
+				"https://pics.vwgroup.se/prod/CJU539/CJU539C.jpg",
+				"https://pics.vwgroup.se/prod/CJU539/CJU539D.jpg"
+			],
+			"used": false,
+			"mileage": 0,
+			"version": "45 TFSI-e 245hk S Line",
+			"price": 580000
+		},
+		{
+			"brand": "Audi",
+			"gearType": "Manual",
+			"image": "https://pics.vwgroup.se/prod/PDK33U/PDK33U.jpg",
+			"model": "Q5",
+			"regNumber": "PDK33U",
+			"vehicleImages": [
+				"https://pics.vwgroup.se/prod/PDK33U/PDK33U.jpg",
+				"https://pics.vwgroup.se/prod/PDK33U/PDK33UA.jpg",
+				"https://pics.vwgroup.se/prod/PDK33U/PDK33UB.jpg",
+				"https://pics.vwgroup.se/prod/PDK33U/PDK33UC.jpg"
+			],
+			"used": false,
+			"mileage": 0,
+			"version": "55 TFSI-e 367hk quattro S Line",
+			"price": 721300
+		},
+		{
+			"brand": "Audi",
+			"gearType": "Automat",
+			"image": "https://pics.vwgroup.se/prod/ULS48C/ULS48CC.jpg",
+			"model": "A4 allroad quattro",
+			"regNumber": "ULS48C",
+			"vehicleImages": [
+				"https://pics.vwgroup.se/prod/ULS48C/ULS48C.jpg",
+				"https://pics.vwgroup.se/prod/ULS48C/ULS48CA.jpg",
+				"https://pics.vwgroup.se/prod/ULS48C/ULS48CB.jpg",
+				"https://pics.vwgroup.se/prod/ULS48C/ULS48CC.jpg"
+			],
+			"used": true,
+			"mileage": 3000,
+			"version": "35 TFSI 150hk Proline Advanced S Tronic",
+			"price": 279000
+		},
+		{
+			"brand": "Audi",
+			"gearType": "Automat",
+			"image": "https://pics.vwgroup.se/prod/MRX10W/MRX10W.jpg",
+			"model": "Q7",
+			"regNumber": "TBR76L",
+			"vehicleImages": [
+				"https://pics.vwgroup.se/prod/MRX10W/MRX10W.jpg",
+				"https://pics.vwgroup.se/prod/MRX10W/MRX10WA.jpg",
+				"https://pics.vwgroup.se/prod/MRX10W/MRX10WB.jpg",
+				"https://pics.vwgroup.se/prod/MRX10W/MRX10WC.jpg",
+				"https://pics.vwgroup.se/prod/MRX10W/MRX10WD.jpg"
+			],
+			"used": false,
+			"mileage": 0,
+			"version": "60 TFSI E 462 HK QUATTRO",
+			"price": 0
+		},
+		{
+			"brand": "Mazda",
+			"gearType": "Automat",
+			"image": "https://pics.vwgroup.se/prod/OJJ810/OJJ810.jpg",
+			"model": "CX-3",
+			"regNumber": "TBR76L",
+			"vehicleImages": [
+				"https://pics.vwgroup.se/prod/OJJ810/OJJ810.jpg",
+				"https://pics.vwgroup.se/prod/OJJ810/OJJ810A.jpg",
+				"https://pics.vwgroup.se/prod/OJJ810/OJJ810B.jpg"
+			],
+			"used": true,
+			"mileage": 7500,
+			"version": "40 TDI PRO",
+			"price": 169000
+		},
+		{
+			"brand": "Audi",
+			"gearType": "Automat",
+			"image": "https://pics.vwgroup.se/prod/HHW669/HHW669.jpg",
+			"model": "A6 allroad quattro",
+			"regNumber": "HHW669",
+			"vehicleImages": [
+				"https://pics.vwgroup.se/prod/HHW669/HHW669.jpg",
+				"https://pics.vwgroup.se/prod/HHW669/HHW669A.jpg",
+				"https://pics.vwgroup.se/prod/HHW669/HHW669B.jpg",
+				"https://pics.vwgroup.se/prod/HHW669/HHW669C.jpg"
+			],
+			"used": true,
+			"mileage": 4350,
+			"version": "AR 3.0 TDI 218hk quattro S Tronic",
+			"price": 339000
+		}
+	],
+	"specificCar": {
+		"brand": "Audi",
+		"gearType": "Automat",
+		"fuelType": "Bensin",
+		"image": "https://pics.vwgroup.se/prod/CJU539/CJU539.jpg",
+		"model": "A6 allroad quattro",
+		"regNumber": "CJU539",
+		"vehicleImages": [
+			"https://pics.vwgroup.se/prod/CJU539/CJU539.jpg",
+			"https://pics.vwgroup.se/prod/CJU539/CJU539A.jpg",
+			"https://pics.vwgroup.se/prod/CJU539/CJU539B.jpg",
+			"https://pics.vwgroup.se/prod/CJU539/CJU539C.jpg",
+			"https://pics.vwgroup.se/prod/CJU539/CJU539D.jpg",
+			"https://pics.vwgroup.se/prod/CJU539/CJU539E.jpg"
+		],
+		"used": true,
+		"mileage": 0,
+		"leasing": null,
+		"version": "45 TFSI-e 245hk S Line",
+		"price": 580000,
+		"modelYear": 2021,
+		"color": "Turkos",
+		"store": {
+			"addressCity": "Hisings Backa",
+			"addressLine": "Exportgatan 6",
+			"addressZip": "422 46",
+			"mainContactEmail": "goteborg@mollerbil.se",
+			"mainContactPhone": "031-393 99 00",
+			"name": "Möller Bil Göteborg"
+		}
+	}
+}

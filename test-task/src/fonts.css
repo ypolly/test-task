@@ -1,0 +1,34 @@
+
+  @font-face {
+    font-family: 'AudiExtended';
+    src: url('./fonts/AudiExtended/AudiType-ExtendedNormal_4.03.ttf');
+    src: url('./fonts/AudiExtended/AudiType-ExtendedNormal_4.03.woff2') format('woff2'),
+        url('./fonts/AudiExtended/AudiType-ExtendedNormal_4.03.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'AudiExtended';
+    src: url('./fonts/AudiExtended/AudiType-ExtendedBold_4.03.ttf');
+    src: url('./fonts/AudiExtended/AudiType-ExtendedBold_4.03.woff2') format('woff2'),
+        url('./fonts/AudiExtended/AudiType-ExtendedBold_4.03.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'AudiTypeScreen';
+    src: url('./fonts/AudiTypeScreen/AudiType-Normal_4.03.ttf');
+    src: url('./fonts/AudiTypeScreen/AudiType-Normal_4.03.woff2') format('woff2'),
+        url('./fonts/AudiTypeScreen/AudiType-Normal_4.03.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
