@@ -1,6 +1,7 @@
 To start the project run "npm start"
-
-
-Pages:
+</br></br>
+Directories:
+</br>
 "/" -  general store view 
+</br>
 "/car" - single car view 
