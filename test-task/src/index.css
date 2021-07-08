@@ -1,4 +1,4 @@
-@import './fonts.css';
+@import "./fonts.css";
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -7,9 +7,9 @@ code {
 
 body {
   margin: 0;
-  font-family: "AudiTypeScreen","CircularStd", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: "AudiTypeScreen", "CircularStd", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 350;
@@ -169,6 +169,7 @@ h1,
   width: 100%;
   position: relative;
 }
+
 .dotted_line {
   border-top: dotted 2px #111;
   position: absolute;
@@ -176,16 +177,19 @@ h1,
   top: 0.7vw;
   z-index: 0;
 }
+
 .attr p {
   position: relative;
   padding: 0px 5px;
   background-color: #fff;
   z-index: 1;
 }
+
 .attr__name {
   float: left;
   font-weight: bold;
 }
+
 .attr__value {
   float: right;
 }
@@ -260,9 +264,9 @@ h1,
   border: none;
   padding: 15px;
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .btn-row {
@@ -281,9 +285,9 @@ h1,
   border: none;
   padding: 15px;
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .car__btn.white {
@@ -302,7 +306,7 @@ h1,
 
 .carattrs__heading {
   font-size: 30px;
-  font-family: 'AudiExtended';
+  font-family: "AudiExtended";
   font-weight: bold;
 }
 
@@ -370,7 +374,7 @@ h1,
 }
 
 .opened__title {
-  font-family: 'AudiExtended';
+  font-family: "AudiExtended";
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 50px;
@@ -445,6 +449,7 @@ h1,
   float: left;
   font-weight: bold;
 }
+
 .card__attr__value {
   float: right;
 }
@@ -501,11 +506,13 @@ h1,
 .product__location-name {
   margin-left: 5px;
 }
+
 .product__model {
   font-size: 17px;
   font-weight: bold;
   margin: 5px 0;
 }
+
 .product__version {
   font-size: 15px;
   margin-bottom: 10px;
@@ -525,11 +532,13 @@ h1,
   background-color: #fff;
   z-index: 1;
 }
+
 .product__attr__name {
   float: left;
   font-weight: bold;
   padding-right: 3px;
 }
+
 .product__attr__value {
   float: right;
   padding-left: 3px;
@@ -544,7 +553,7 @@ h1,
   display: none;
   margin-right: 39px;
   margin-top: 17px;
-  z-index: 4; 
+  z-index: 4;
 }
 
 .header__menu span {
@@ -600,16 +609,15 @@ h1,
   width: 100vw;
   left: 0;
   top: 0;
-  background: #FFF;
+  background: #fff;
   padding-top: 60px;
   display: none;
   font-size: 25px;
   flex-direction: column;
-  z-index: 3
-
+  z-index: 3;
 }
 
-.nav-mobile.open{
+.nav-mobile.open {
   display: flex;
 }
 
@@ -644,6 +652,7 @@ h1,
   outline: none;
   border-bottom: 1px solid #111;
 }
+
 .icon-search {
   height: 40px;
   margin-right: -20px;
@@ -660,7 +669,7 @@ h1,
   margin-bottom: -10px;
 }
 
-.select-block{
+.select-block {
   width: 30%;
 }
 
@@ -668,7 +677,7 @@ h1,
   width: 100%;
   height: 40px;
   border: none;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 0;
   border-bottom: 1px solid #b3b2b3;
   color: #8f8f8e;
@@ -677,7 +686,7 @@ h1,
   font-size: 17px;
 }
 
-.select:focus{
+.select:focus {
   outline: none;
 }
 
@@ -696,105 +705,115 @@ h1,
   .navbar-bottom {
     display: none;
   }
+
   .product-block {
     width: 49%;
   }
+
   .header__menu {
     display: inline-block;
   }
-  
-
 }
-
 
 @media (max-width: 800px) {
-  .top-widget-block{
+  .top-widget-block {
     padding-top: 30px;
   }
-.caratts,
-.top-widget{
-  flex-direction: column;
-  align-items: center;
-}
-.carattrs__menu,
-.carosel-block,
-.carinfo-block {
-  width: 100%;
-}
-.carattrs__heading{
-  font-size: 22px;
-}
-.carattrs__subtitle,
-.nav-tabs,
-.car__btn,
-.car__btn-large{
-  font-size: 13px;
-}
 
-.car__name{
-  font-size: 18px;
-}
-.car__model{
-  font-size: 13px;
-}
-.car__attrs{
-  font-size: 13px;
-  width: 100%;
-  max-width: 500px;
-}
-.car__supplier {
-  font-size: 9px;
-}
-.carinfo-block{
-  padding: 30px 0;
-}
+  .caratts,
+  .top-widget {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.carattrs__subtitle{
-  width: 80%;
-}
-.dotted_line{
-  top: 12px;
-}
+  .carattrs__menu,
+  .carosel-block,
+  .carinfo-block {
+    width: 100%;
+  }
 
-.opened-block{
-  padding: 50px 20px;
+  .carattrs__heading {
+    font-size: 22px;
+  }
+
+  .carattrs__subtitle,
+  .nav-tabs,
+  .car__btn,
+  .car__btn-large {
+    font-size: 13px;
+  }
+
+  .car__name {
+    font-size: 18px;
+  }
+
+  .car__model {
+    font-size: 13px;
+  }
+
+  .car__attrs {
+    font-size: 13px;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .car__supplier {
+    font-size: 9px;
+  }
+
+  .carinfo-block {
+    padding: 30px 0;
+  }
+
+  .carattrs__subtitle {
+    width: 80%;
+  }
+
+  .dotted_line {
+    top: 12px;
+  }
+
+  .opened-block {
+    padding: 50px 20px;
+  }
+
+  .opened__subtitle {
+    max-width: 80%;
+    font-size: 15px;
+  }
+
+  .opened__row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .card__attrs {
+    width: 100%;
+  }
 }
-
-.opened__subtitle{
-  max-width: 80%;
-  font-size: 15px;
-}
-
-
-.opened__row{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.card__attrs{
-  width: 100%;
-}
-}
-
-
 
 @media (max-width: 600px) {
   .navbar-bottom {
     display: none;
   }
+
   .product-block {
     width: 100%;
   }
+
   .header__menu {
     display: inline-block;
   }
-  .page-block{
+
+  .page-block {
     padding: 30px 20px;
   }
+
   .header__menu {
-    margin-right: 20px ;
+    margin-right: 20px;
   }
-  .page__search, 
+
+  .page__search,
   .select-block {
     width: 48%;
     font-size: 13px;
@@ -804,18 +823,29 @@ h1,
   .select {
     font-size: 13px;
   }
-  .carattr__line{
+
+  .carattr__line {
     padding: 0 10px;
     font-size: 15px;
   }
-  .opened__row{
+
+  .opened__row {
     flex-direction: column;
   }
-  .card-block{
+
+  .card-block {
     width: 100%;
     margin-bottom: 30px;
   }
-  .car__supplier{
+
+  .car__supplier {
     margin-top: 10px;
+  }
+
+  .carattrs__subtitle,
+  .nav-tabs,
+  .car__btn,
+  .car__btn-large {
+    font-size: 11px;
   }
 }

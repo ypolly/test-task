@@ -9,8 +9,6 @@ import LastOpened from '../components/LastOpened';
 const SinglePage = ( ) => {
      const [data, setData] = useState([]);
      const [isLoading, setIsLoading] = useState(true);
-     const [error, setError] = useState('');
- 
      
        useEffect(() => {
          const apiUrl = './data/example-data.json';
@@ -27,7 +25,6 @@ const SinglePage = ( ) => {
              setIsLoading(false);
              }).catch((e) => {
                  setIsLoading(false);
-                 setError('fetch failed');
                });
            }, []);
  

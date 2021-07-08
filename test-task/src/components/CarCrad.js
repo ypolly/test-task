@@ -3,7 +3,6 @@ import { faMapMarker } from "@fortawesome/free-solid-svg-icons";
 
 const CarCard = (props) => {
   const car = props.car;
-  console.log("dhefbuavbu");
   return (
     <div className="card-block">
       <img src={car.image} className="card__img" />
